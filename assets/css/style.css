@@ -852,6 +852,8 @@ a:hover {
 
 .about-mf .about-img {
   margin-bottom: 2rem;
+  width: 100%; /* Make the image fill the width of its parent div */
+  height: auto; /* Maintain the aspect ratio */
 }
 
 .about-mf .about-img img {
