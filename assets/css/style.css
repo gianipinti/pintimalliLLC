@@ -18,6 +18,11 @@ greenhauseBack {
     color: #4e4e4e;
   }
 
+.responsive-img {
+  max-width: 100%; /* Ensure the image does not exceed its container's width */
+  height: auto; /* Maintain the aspect ratio */
+}
+
 
 h1,
 h2,
